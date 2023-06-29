@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
   <body>
     <h1>Operador de Divisa</h1>
-  
+
     <label for="cantidad">Cantidad:</label>
     <input type="text" id="cantidad" />
-  
+
     <label for="divisaOrigen">Divisa de Origen:</label>
     <select id="divisaOrigen">
       <option value="USD">USD</option>
@@ -18,7 +18,7 @@
       <option value="BSV">BSV</option>
       <option value="COP">COP</option>
     </select>
-  
+
     <label for="divisaDestino">Divisa de Destino:</label>
     <select id="divisaDestino">
       <option value="USD">USD</option>
@@ -26,11 +26,11 @@
       <option value="BSV">BSV</option>
       <option value="COP">COP</option>
     </select>
-  
-    <button id="btnConvertir" onclick="convertirDivisa()">Convertir</button>
-  
+
+<button id="btnConvertir" onclick="convertirDivisa()">Convertir</button>
+
     <h2>Resultado:</h2>
     <p id="resultado"></p>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
